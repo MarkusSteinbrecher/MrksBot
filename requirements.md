@@ -1,4 +1,4 @@
-# Requirements
+# Requirements (these are just bot created notes)
 
 ## 1. Basic Chatbot functionality
 
@@ -16,6 +16,6 @@ To facilitate the bot's role in writing meeting minutes, we need to set up some 
 
 In addition to Matrix, we want the bot to be able to interact with multiple other sources. These include E-Mail, WhatsApp, Element, Discord, and Slack. This will involve setting up integrations with each of these platforms, allowing the bot to read and send messages in a consistent way across all of them.
 
-## 5. Language Learning Model (LLM)
+## 5. Integrate an Open LLM
 
-To help the bot understand and generate text, we will incorporate an open source language learning model. We are considering using LangChain or Pinecone, both of which offer powerful natural language understanding capabilities. We will need to ensure that the LLM has access to a sufficiently large and diverse dataset to train on, and that it can be integrated into the bot's message processing pipeline.
+To help the bot understand and generate text, we will incorporate an open source large language model. We are considering using LangChain or Pinecone, both of which offer powerful natural language understanding capabilities. We will need to ensure that the LLM has access to a sufficiently large and diverse dataset to train on, and that it can be integrated into the bot's message processing pipeline.
